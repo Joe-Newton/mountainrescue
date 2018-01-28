@@ -16,7 +16,8 @@ database and these values are stored in variables for each activity on the datab
 ajor etc.). My main problem lies here: I cannot put these variables on my webpage "http://127.0.0.1:8000/map/report" as they would need to 
 be converted to javascript variables for this to be done (I am struggling to do this). I believe that if this done, the webpage statistics 
 will update automatically if the database is updated and the webpage refreshed.Ipredict I will have to convert more python variables to
-javascript variables when the coordinates have been extracted from the "twitterdata.txt" file. 
+javascript variables when the coordinates have been extracted from the "twitterdata.txt" file. I have also started up the "admin" section of Django so the database can be viewed and managed from an administrator account and this is ideally how records will be added/changed.
+
 
 Twitter Stream:
 I have written a program that (spearate to the django files) returns all the data about any recent tweet and dumps it in a file. This is 
