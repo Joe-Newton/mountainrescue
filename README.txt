@@ -30,3 +30,7 @@ tweets have been found. Somehow I need to find a way to link these two component
 Notes:
 -I have not included the supporting files that cause "twitter-streaming.py" to work because I couldn't get them to work on Github (I am 
 new to GitHub), they are instead on a google drive: https://drive.google.com/drive/folders/12VOfOVsHLGegGZ5qxtSGaRFdvNOqDT3i?usp=sharing
+
+With regard to the "records" folder in Django, ignore it as it was an experiment and I found out It was easier just to add to the views.py file in the "map" folder because the database was already linked to the "map" folder. Also, the fact I don not have a homepage is okay because in the user manual I will provide the correct urls to use.
+
+To run the server to launch the Django website, navigate to where the files are stored locally and type "python manage.py runserver" - I will hopefully put commands like these in a .bat file to make it easier for users to understand.
